@@ -39,25 +39,19 @@ transition-duration: 5s;
 
 div.img:hover img#lievre{
   /* A completer */
-  @keyframes lapin {
-  	from {margin-left: 0px;}
-  	50% {margin-left: 500px;}
-  	to {margin-left: 0px;}
-  }
-
-  .ex7 {
-  	animation-name: lapin;
-  	animation-duration: 5s;
-  	animation-timing-function: ease-in;
-  	animation-iteration-count: 3;
-  }
-
-
+ margin-left: 500px;
+ transition-duration: 3s;
+ transition-timing-function: linear;
+ transition-property: all;
 }
 
 div.img:hover img#drapeau {
     /* A completer */
-
+    transition-delay: 3s;
+    transition-duration: 2s;
+    transition-property: all;
+    transition-timing-function: linear;
+    transform: rotateY(180deg);
 
 
 }
@@ -94,9 +88,13 @@ transition-timing-function: ease-in;
 
 .mv-item a:hover, .mv-item a:focus { /*Couleur du fond #1ABC9C, police #FFF*/
 	/* A completer */
-
-
-
+transition-duration: 2s;
+transition-property: all;
+transition-timing-function: linear;
+background-color: #1ABC9C;
+color: #FFF;
+padding: 8px 60px;
+text-decoration: none;
 }
 
 /*===============================================================*/
