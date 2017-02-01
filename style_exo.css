@@ -136,9 +136,19 @@ input:focus {
 	height: 100px;
 }
 
-.ex6 
+@keyframes color {
 
-/* A vous de jouer! */
+	from { background-color: red ; }
+	35% { background-color: blue; }
+	to { background-color: yellow; }
+}
+
+.ex6:hover {
+	animation-name: color;
+	animation-duration: 6s;
+	animation-timing-function: linear;
+}
+
 
 
 
@@ -159,7 +169,18 @@ input:focus {
 
 /* A vous de jouer! */
 
+@keyframes retour {
+	from {margin-left: 0px;}
+	50% {margin-left: 500px;}
+	to {margin-left: 0px;}
+}
 
+.ex7 {
+	animation-name: retour;
+	animation-duration: 5s;
+	animation-timing-function: ease-in;
+	animation-iteration-count: 3;
+}
 
 
 /* =========================================== */
