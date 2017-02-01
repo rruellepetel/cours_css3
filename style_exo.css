@@ -1,0 +1,188 @@
+
+
+/*EXERCICE N°1:*/
+
+.ex1 {
+	margin: 20px 0;
+	background: #71b43d;
+	width: 100px;
+	height: 100px;
+	/* A vous de jouer! */
+
+}
+
+/* A vous de jouer! */
+
+.ex1:hover {
+    transition-property: all;
+    width: 500px;
+    transition-timing-function: ease;
+    transition-duration: 1s;
+}
+
+
+
+
+/* =========================================== */
+
+
+/*EXERCICE N°2:*/
+
+.ex2 {
+	margin: 20px 0;
+	background: #71b43d;
+	width: 100px;
+	height: 100px;
+	/* A vous de jouer! */
+
+}
+
+.ex2:active {
+    background-color: red;
+    transition-duration: 1.5s;
+    transition-timing-function: linear;
+}
+/* A vous de jouer! */
+
+
+/* =========================================== */
+
+
+/*EXERCICE N°3:*/
+
+.ex3 {
+	margin: 20px 0;
+	background: #71b43d;
+	width: 100px;
+	height: 100px;
+	/* A vous de jouer! */
+
+}
+
+.ex3:hover {
+    background-color: blue;
+}
+
+.ex3:active {
+    width: 200px;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+
+}
+/* A vous de jouer! */
+
+
+
+
+/* =========================================== */
+
+
+/*EXERCICE N°4:*/
+
+input {
+	width: 25px;
+	/* A vous de jouer! */
+
+}
+
+input:focus {
+    width: 500px;
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
+}
+
+/* A vous de jouer! */
+
+
+
+
+
+
+/* =========================================== */
+
+
+/*EXERCICE N°5:*/
+
+.pic img {
+	width: 750px;
+	height: 350px;
+	/* A vous de jouer! */
+
+}
+
+.pic img:hover {
+    width: 850px;
+    height: 450px;
+    transition-duration: 1.5s;
+    transition-timing-function: ease-out;
+    transform: rotate(2deg);
+}
+
+/* A vous de jouer! */
+
+
+
+
+
+/* =========================================== */
+
+
+/*EXERCICE N°6:*/
+
+.ex6 {
+	margin: 20px 0;
+	background: #71b43d;
+	width: 100px;
+	height: 100px;
+}
+
+.ex6 
+
+/* A vous de jouer! */
+
+
+
+
+/* =========================================== */
+
+
+/*EXERCICE N°6:*/
+
+.ex7 {
+	margin: 20px 0;
+	background: #71b43d;
+	width: 100px;
+	height: 100px;
+	/* A vous de jouer! */
+
+}
+
+/* A vous de jouer! */
+
+
+
+
+/* =========================================== */
+
+
+/*EXERCICE N°6:*/
+
+.ex8 {
+	margin: 20px 0;
+	background: #71b43d;
+	width: 100px;
+	height: 100px;
+	position: relative;
+	/* A vous de jouer! */
+
+}
+
+/* A vous de jouer! */
+
+
+
+
+
+
+
+/* =========================================== */
