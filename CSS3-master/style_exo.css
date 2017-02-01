@@ -4,42 +4,53 @@
 
 .cube:hover {
   /* A completer */
-
-
-
+background-color: red;
+transition-timing-function: ease-in-out;
+transition-duration: 5s;
 }
 
 .cube2:hover{
   /* A completer */
-
-
-
-}
+  background-color: red;
+  transition-timing-function: ease-in;
+  transition-duration: 1s;
+  }
 
 .cube3:hover{
   /* A completer */
-
-
-
-}
+  transition-delay: 5s;
+  background-color: red;
+  transition-timing-function: ease-in;
+  transition-duration: 5s;
+  }
 
 .cube4:hover{
   /* A completer */
-
-
-
+  transition-duration: 5s;
+  width: 200px;
+  height: 200px
 }
 
 .cube5:hover{
   /* A completer */
-
-
-
+transform: rotate(360deg);
+transition-duration: 5s;
 }
 
 div.img:hover img#lievre{
   /* A completer */
+  @keyframes lapin {
+  	from {margin-left: 0px;}
+  	50% {margin-left: 500px;}
+  	to {margin-left: 0px;}
+  }
 
+  .ex7 {
+  	animation-name: lapin;
+  	animation-duration: 5s;
+  	animation-timing-function: ease-in;
+  	animation-iteration-count: 3;
+  }
 
 
 }
@@ -65,9 +76,11 @@ div.img:hover img#drapeau {
 
 #carre-rond:hover {
 	/* A completer */
-
-
-
+transform: rotate(36000deg);
+border-radius: 50%;
+transition-duration: 10s;
+transition-property: all;
+transition-timing-function: ease-in;
 }
 
 .mv-item a { /*Couleur police #666 */
